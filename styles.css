@@ -125,13 +125,14 @@ li { margin-bottom: 0.45em; }
 }
 
 .logo {
+  max-width: min(340px, 72vw);
   display: flex;
   align-items: center;
   gap: 0.65rem;
   text-decoration: none;
   color: var(--teal-950);
   flex-shrink: 0;
-  max-width: min(280px, 58vw);
+  max-width: min(340px, 72vw);
 }
 .logo:hover { opacity: 0.92; }
 .logo:focus-visible { outline-offset: 4px; }
@@ -294,7 +295,8 @@ li { margin-bottom: 0.45em; }
     text-align: center;
     margin-top: 0.35rem;
   }
-  .logo-img { height: 44px; }
+  .logo-img { height: 40px; width: 40px; }
+  .logo-wordmark { height: 36px; }
 }
 
 /* —— Hero —— */
@@ -1203,13 +1205,22 @@ li { margin-bottom: 0.45em; }
   margin-bottom: 1.1rem;
 }
 .footer-logo {
-  height: 48px;
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 0.3rem;
+  flex-shrink: 0;
+}
+.footer-wordmark {
+  height: 40px;
   width: auto;
   max-width: 180px;
   object-fit: contain;
   background: var(--white);
   border-radius: 10px;
-  padding: 0.35rem 0.5rem;
+  padding: 0.3rem 0.55rem;
 }
 .footer-brand strong {
   color: var(--white);
@@ -1351,3 +1362,6 @@ button.btn {
   .logo-img { height: 40px; }
   .hero-photo { aspect-ratio: 16 / 11; }
 }
+
+/* Dual archive logo (lamp + 2019 wordmark) + media polish */
+.logo { gap: 0.55rem; align-items: center; }
