@@ -137,9 +137,9 @@ li { margin-bottom: 0.45em; }
 .logo:focus-visible { outline-offset: 4px; }
 
 .logo-img {
-  height: 52px;
+  height: 56px;
   width: auto;
-  max-width: 100%;
+  max-width: min(220px, 55vw);
   object-fit: contain;
   object-position: left center;
 }
@@ -1298,4 +1298,56 @@ button.btn {
     transition: none;
   }
   .card:hover, .pillar:hover { transform: none; }
+}
+
+/* Real media: hero photo + archive/WP photo strips */
+.hero-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  box-shadow: 0 18px 40px rgba(13, 79, 91, 0.18);
+}
+.hero-art-frame {
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.photo-strip-section {
+  padding-top: 1.5rem;
+}
+.photo-strip {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+@media (min-width: 640px) {
+  .photo-strip { grid-template-columns: repeat(3, 1fr); }
+  .photo-strip-secondary { grid-template-columns: repeat(4, 1fr); }
+}
+.photo-card {
+  margin: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--cream, #fff8f0);
+  box-shadow: 0 8px 24px rgba(13, 79, 91, 0.1);
+}
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  display: block;
+}
+.site-footer {
+  background-image: linear-gradient(180deg, rgba(13,79,91,0.92), rgba(13,79,91,0.97)), url("assets/sand-dunes.png");
+  background-size: cover;
+  background-position: center top;
+}
+@media (max-width: 900px) {
+  .logo-img { height: 40px; }
+  .hero-photo { aspect-ratio: 16 / 11; }
 }

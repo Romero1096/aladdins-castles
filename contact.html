@@ -19,7 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650;9..144,700&family=Nunito+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23136a78' d='M8 52h48v4H8zm4-4h40L48 28H16zm20-36l6 8h-4v6h-4v-6h-4z'/%3E%3Ccircle cx='32' cy='14' r='3' fill='%23e8bc3a'/%3E%3C/svg%3E">
+  <link rel="icon" href="assets/favicon-lamp.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/favicon-lamp.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -27,7 +28,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
-        <img class="logo-img" src="assets/logo.png" width="963" height="457" alt="Aladdin's Castle Learning Center">
+        <img class="logo-img" src="assets/logo.png" width="492" height="234" alt="Aladdin's Castle Learning Center">
       </a>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -62,7 +63,17 @@
       </div>
     </div>
 
-    <section class="section">
+    
+    <section class="section photo-strip-section" style="padding-bottom:0;">
+      <div class="container">
+        <div class="photo-strip" style="grid-template-columns:1.2fr 1fr;">
+          <figure class="photo-card"><img src="assets/contact-image.png" width="900" height="600" alt="Visit Aladdin's Castle" loading="lazy"></figure>
+          <figure class="photo-card"><img src="assets/three_pics2.jpg" width="800" height="600" alt="Welcome to our center" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+<section class="section">
       <div class="container two-col">
         <div>
           <h2>Send a message</h2>
@@ -183,7 +194,7 @@
       <div class="footer-grid">
         <div>
           <div class="footer-brand">
-            <img class="footer-logo" src="assets/logo.png" width="963" height="457" alt="">
+            <img class="footer-logo" src="assets/logo.png" width="492" height="234" alt="">
             <strong>Aladdin's Castle<br>Learning Center</strong>
           </div>
           <p>Enrich Minds — a safe place to learn, play, and shine in Odessa, Texas since 1993.</p>

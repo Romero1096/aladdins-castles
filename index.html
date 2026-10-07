@@ -19,7 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650;9..144,700&family=Nunito+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23136a78' d='M8 52h48v4H8zm4-4h40L48 28H16zm20-36l6 8h-4v6h-4v-6h-4z'/%3E%3Ccircle cx='32' cy='14' r='3' fill='%23e8bc3a'/%3E%3C/svg%3E">
+  <link rel="icon" href="assets/favicon-lamp.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/favicon-lamp.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -27,7 +28,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
-        <img class="logo-img" src="assets/logo.png" width="963" height="457" alt="Aladdin's Castle Learning Center">
+        <img class="logo-img" src="assets/logo.png" width="492" height="234" alt="Aladdin's Castle Learning Center">
       </a>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -67,32 +68,9 @@
             <span class="pill">Year-round care</span>
           </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
+        <div class="hero-art">
           <div class="hero-art-frame">
-            <svg viewBox="0 0 360 300" role="img" aria-label="">
-              <defs>
-                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#e6f5f7"/>
-                  <stop offset="100%" stop-color="#fdece9"/>
-                </linearGradient>
-              </defs>
-              <rect width="360" height="300" rx="20" fill="url(#sky)"/>
-              <circle cx="48" cy="42" r="3" fill="#e8bc3a"/>
-              <circle cx="300" cy="56" r="2.5" fill="#e8bc3a"/>
-              <circle cx="320" cy="110" r="2" fill="#d4a017"/>
-              <path d="M70 70l2.5 6.5 6.5 2.5-6.5 2.5L70 88l-2.5-6.5L61 79l6.5-2.5z" fill="#e8bc3a"/>
-              <path d="M280 40l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#f08070" opacity=".85"/>
-              <path fill="#136a78" d="M70 250h220v20H70z"/>
-              <path fill="#1a8494" d="M90 250V150h40v-30l20-28 20 28v30h40V150h40v-30l20-28 20 28v130H90z"/>
-              <path fill="#0d4f5b" d="M130 250V170h40v80zm80 0V170h40v80z"/>
-              <rect x="165" y="200" width="30" height="50" rx="4" fill="#e06a55"/>
-              <circle cx="150" cy="145" r="8" fill="#e8bc3a"/>
-              <circle cx="250" cy="145" r="8" fill="#e8bc3a"/>
-              <path fill="#e06a55" d="M110 120l20-26 20 26zm100 0l20-26 20 26z"/>
-              <circle cx="130" cy="88" r="5" fill="#e8bc3a"/>
-              <circle cx="230" cy="88" r="5" fill="#e8bc3a"/>
-              <ellipse cx="180" cy="270" rx="140" ry="18" fill="#2a9aad" opacity=".25"/>
-            </svg>
+            <img class="hero-photo" src="assets/banner.png" width="1200" height="800" alt="Children learning and playing at Aladdin's Castle Learning Center">
           </div>
         </div>
       </div>
@@ -121,6 +99,42 @@
         <h2>Enrich Minds</h2>
         <p>We believe every child deserves excellence in care and learning — a place where emotional, physical, and mental growth are nurtured side by side, and where parents are true partners in the journey.</p>
         <p class="enrich-quote">"Where you don't need a magic lamp to make your child's dreams come true."</p>
+      </div>
+    </section>
+
+
+    <section class="section photo-strip-section" aria-label="Life at the Castle">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Life at the Castle</span>
+          <h2>Real moments from our classrooms</h2>
+          <p>Photos from Aladdin's Castle — the faces and spaces families know.</p>
+        </div>
+        <div class="photo-strip">
+          <figure class="photo-card">
+            <img src="assets/three_pics1.jpg" width="800" height="600" alt="Children at Aladdin's Castle Learning Center" loading="lazy">
+          </figure>
+          <figure class="photo-card">
+            <img src="assets/three_pics2.jpg" width="800" height="600" alt="Classroom activities at Aladdin's Castle" loading="lazy">
+          </figure>
+          <figure class="photo-card">
+            <img src="assets/three_pics3.jpg" width="800" height="600" alt="Play and learning at Aladdin's Castle" loading="lazy">
+          </figure>
+        </div>
+        <div class="photo-strip photo-strip-secondary" style="margin-top:1rem;">
+          <figure class="photo-card">
+            <img src="assets/service-1.jpg" width="800" height="600" alt="Infant and baby care" loading="lazy">
+          </figure>
+          <figure class="photo-card">
+            <img src="assets/service-3.jpg" width="800" height="600" alt="Toddler program" loading="lazy">
+          </figure>
+          <figure class="photo-card">
+            <img src="assets/service-5.jpg" width="800" height="600" alt="Preschool learning" loading="lazy">
+          </figure>
+          <figure class="photo-card">
+            <img src="assets/about-us.png" width="800" height="600" alt="About Aladdin's Castle Learning Center" loading="lazy">
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -292,7 +306,7 @@
       <div class="footer-grid">
         <div>
           <div class="footer-brand">
-            <img class="footer-logo" src="assets/logo.png" width="963" height="457" alt="">
+            <img class="footer-logo" src="assets/logo.png" width="492" height="234" alt="">
             <strong>Aladdin's Castle<br>Learning Center</strong>
           </div>
           <p>Enrich Minds — a safe place to learn, play, and shine in Odessa, Texas since 1993.</p>
