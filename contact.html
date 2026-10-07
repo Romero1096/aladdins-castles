@@ -78,9 +78,14 @@
       <div class="container two-col">
         <div>
           <h2>Send a message</h2>
-          <p class="text-muted">Fill out the form below and your email app will open with a draft to our office. For the fastest reply, call during open hours.</p>
+          <p class="text-muted">Fill out the form below and we will get back to you by email. For the fastest reply, call during open hours.</p>
 
-          <form class="contact-form" id="contact-form" novalidate>
+          <form class="contact-form" id="contact-form" action="https://formsubmit.co/aladdinscastle@aol.com" method="POST">
+            <input type="hidden" name="_subject" value="Aladdin's Castle website inquiry">
+            <input type="hidden" name="_next" value="https://aladdinscastles.com/thanks.html">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
             <div class="form-row">
               <label for="name">Your name <span class="hint">(required)</span></label>
               <input type="text" id="name" name="name" autocomplete="name" required>
@@ -112,9 +117,9 @@
               <textarea id="message" name="message" required placeholder="Tell us a little about your child and how we can help…"></textarea>
             </div>
             <div class="form-actions">
-              <button type="submit" class="btn btn-primary btn-lg">Open email draft</button>
+              <button type="submit" class="btn btn-primary btn-lg">Send message</button>
             </div>
-            <p class="form-note">This form opens your email app addressed to <strong>aladdinscastle@aol.com</strong>. Nothing is stored on this website. You can also email us directly or call <a href="tel:+14323622785">(432) 362-2785</a>.</p>
+            <p class="form-note">Your message is delivered to <strong>aladdinscastle@aol.com</strong> via FormSubmit. You can also email us directly or call <a href="tel:+14323622785">(432) 362-2785</a>.</p>
           </form>
         </div>
 
