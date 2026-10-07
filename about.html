@@ -17,7 +17,7 @@
   <meta name="twitter:image" content="https://aladdinscastles.com/assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650;9..144,700&family=Nunito+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650;9..144,700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="assets/favicon-lamp.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/favicon-lamp.png">
@@ -65,25 +65,14 @@
     </div>
 
 
-    <section class="section photo-strip-section" style="padding-top:0;padding-bottom:0;">
-      <div class="container">
-        <div class="photo-strip">
-          <figure class="photo-card">
-            <img src="assets/about-us.png" width="800" height="600" alt="About Aladdin's Castle" loading="lazy">
-          </figure>
-          <figure class="photo-card">
-            <img src="assets/three_pics1.jpg" width="800" height="600" alt="Our classrooms" loading="lazy">
-          </figure>
-          <figure class="photo-card">
-            <img src="assets/three_pics2.jpg" width="800" height="600" alt="Children at the Castle" loading="lazy">
-          </figure>
-        </div>
-      </div>
-    </section>
-
     <section class="section">
-      <div class="container two-col">
-        <div class="prose">
+      <div class="container about-asymmetric">
+        <div class="about-asymmetric-media" aria-hidden="false">
+          <img class="tall" src="assets/about-us.png" width="600" height="800" alt="About Aladdin's Castle Learning Center" loading="lazy">
+          <img class="wide" src="assets/three_pics1.jpg" width="640" height="480" alt="Our classrooms" loading="lazy">
+          <img class="wide" src="assets/three_pics2.jpg" width="640" height="480" alt="Children at the Castle" loading="lazy">
+        </div>
+        <div class="about-asymmetric-copy prose">
           <h2>History &amp; ownership</h2>
           <p>Aladdin's Castle Learning Center, Inc. opened its doors on <strong>June 28, 1993</strong>. For more than three decades, we have been part of Odessa families' daily lives — caring for infants through school-age children with consistency, warmth, and high standards.</p>
           <p>Today the center is owned by <strong>Mrs. April C. Terrell</strong>, who continues the tradition of treating Aladdin's Castle as a true home away from home for every child who walks through our doors.</p>
@@ -107,9 +96,13 @@
           <h2>Equal opportunity &amp; accessibility</h2>
           <p>Aladdin's Castle Learning Center accepts children of any race, religion, and ethnic origin. We are committed to serving families with fairness and respect. Our center strives to be <strong>ADA compliant</strong> so that children and families of differing abilities are welcomed and accommodated.</p>
         </div>
+      </div>
+    </section>
 
+    <section class="section section-alt" style="padding-top:0;">
+      <div class="container" style="max-width:28rem;margin-left:auto;margin-right:auto;">
         <aside>
-          <div class="sidebar-card">
+          <div class="sidebar-card" style="position:static;">
             <h3>Quick facts</h3>
             <dl>
               <dt>Established</dt>

@@ -1,44 +1,45 @@
-/* Aladdin's Castle Learning Center — distinctive daycare brand
-   Soft teal / warm coral / soft gold / cream — castle-inspired, not agency purple */
+/* Aladdin's Castle Learning Center — warm cream/sand redesign
+   Cream/sand · espresso · terracotta · sage · soft gold */
 
 :root {
-  --teal-950: #0a3d47;
-  --teal-900: #0d4f5b;
-  --teal-800: #136a78;
-  --teal-700: #1a8494;
-  --teal-600: #2a9aad;
-  --teal-200: #b8dde4;
-  --teal-100: #e6f5f7;
-  --teal-50: #f2fafb;
-  --coral-800: #a83d2f;
-  --coral-700: #c44a3a;
-  --coral-600: #e06a55;
-  --coral-500: #f08070;
-  --coral-100: #fdece9;
-  --coral-50: #fff5f3;
-  --gold-800: #8a6508;
-  --gold-700: #b8860b;
-  --gold-600: #d4a017;
-  --gold-500: #e8bc3a;
-  --gold-100: #fdf6e3;
-  --gold-50: #fffbf0;
-  --ink: #1a2b2e;
-  --ink-muted: #4a5c60;
-  --ink-soft: #6b7c80;
-  --cream: #fffcf7;
-  --cream-deep: #f7f0e6;
+  /* Warm cream/sand · espresso · terracotta · sage · soft gold */
+  --teal-950: #2A2118;
+  --teal-900: #3D3228;
+  --teal-800: #6B7F5E;
+  --teal-700: #7A8F6C;
+  --teal-600: #8FA07E;
+  --teal-200: #D4DDCC;
+  --teal-100: #E8EFE3;
+  --teal-50: #F3F6F0;
+  --coral-800: #9A4519;
+  --coral-700: #C45C26;
+  --coral-600: #C45C26;
+  --coral-500: #D47845;
+  --coral-100: #F8E8DE;
+  --coral-50: #FBF1EA;
+  --gold-800: #8A6A28;
+  --gold-700: #B08935;
+  --gold-600: #D4A84B;
+  --gold-500: #D4A84B;
+  --gold-100: #F7EED8;
+  --gold-50: #FBF6EB;
+  --ink: #2A2118;
+  --ink-muted: #5C4F42;
+  --ink-soft: #7A6B5A;
+  --cream: #FFFCF7;
+  --cream-deep: #F7F1E8;
   --white: #ffffff;
-  --border: #d4e4e7;
-  --border-soft: #e8f0f2;
-  --shadow-sm: 0 1px 3px rgba(13, 79, 91, 0.06);
-  --shadow: 0 4px 24px rgba(13, 79, 91, 0.08);
-  --shadow-lg: 0 16px 48px rgba(13, 79, 91, 0.12);
-  --shadow-glow: 0 8px 32px rgba(224, 106, 85, 0.22);
+  --border: #E5D9C8;
+  --border-soft: #EFE6D8;
+  --shadow-sm: 0 1px 3px rgba(42, 33, 24, 0.06);
+  --shadow: 0 4px 24px rgba(42, 33, 24, 0.08);
+  --shadow-lg: 0 16px 48px rgba(42, 33, 24, 0.12);
+  --shadow-glow: 0 8px 32px rgba(196, 92, 38, 0.22);
   --radius: 14px;
   --radius-lg: 22px;
   --radius-xl: 28px;
-  --font: "Nunito Sans", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font: "Inter", "Source Sans 3", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Fraunces", "Source Serif 4", Georgia, "Times New Roman", serif;
   --max: 1140px;
   --header-h: 78px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -304,10 +305,10 @@ li { margin-bottom: 0.45em; }
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(ellipse 70% 55% at 92% 8%, rgba(232, 188, 58, 0.28), transparent 55%),
-    radial-gradient(ellipse 55% 45% at 5% 90%, rgba(42, 154, 173, 0.2), transparent 50%),
-    radial-gradient(ellipse 40% 35% at 60% 100%, rgba(224, 106, 85, 0.12), transparent 45%),
-    linear-gradient(168deg, var(--teal-50) 0%, var(--cream) 48%, var(--coral-50) 100%);
+    radial-gradient(ellipse 70% 55% at 92% 8%, rgba(212, 168, 75, 0.22), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 5% 90%, rgba(107, 127, 94, 0.14), transparent 50%),
+    radial-gradient(ellipse 40% 35% at 60% 100%, rgba(196, 92, 38, 0.1), transparent 45%),
+    linear-gradient(168deg, var(--cream-deep) 0%, var(--cream) 48%, var(--coral-50) 100%);
   padding: 3.75rem 0 4.25rem;
 }
 
@@ -428,13 +429,13 @@ li { margin-bottom: 0.45em; }
   background: var(--teal-800);
   color: var(--white);
   border-color: var(--teal-800);
-  box-shadow: 0 6px 20px rgba(19, 106, 120, 0.28);
+  box-shadow: 0 6px 20px rgba(107, 127, 94, 0.28);
 }
 .btn-primary:hover {
   background: var(--teal-950);
   color: var(--white);
   border-color: var(--teal-950);
-  box-shadow: 0 8px 24px rgba(13, 79, 91, 0.32);
+  box-shadow: 0 8px 24px rgba(42, 33, 24, 0.28);
 }
 
 .btn-secondary {
@@ -1003,7 +1004,7 @@ li { margin-bottom: 0.45em; }
   font-weight: 800;
   font-size: 1.05rem;
   font-family: var(--font);
-  box-shadow: 0 4px 12px rgba(19, 106, 120, 0.3);
+  box-shadow: 0 4px 12px rgba(107, 127, 94, 0.28);
 }
 
 /* —— Callout —— */
@@ -1066,7 +1067,7 @@ li { margin-bottom: 0.45em; }
   outline: none;
   border-color: var(--teal-600);
   background: var(--white);
-  box-shadow: 0 0 0 4px rgba(42, 154, 173, 0.15);
+  box-shadow: 0 0 0 4px rgba(107, 127, 94, 0.18);
 }
 .form-row textarea { min-height: 150px; resize: vertical; }
 .form-actions { margin-top: 1.6rem; }
@@ -1319,7 +1320,7 @@ button.btn {
   border-radius: 18px;
   object-fit: cover;
   aspect-ratio: 4 / 3;
-  box-shadow: 0 18px 40px rgba(13, 79, 91, 0.18);
+  box-shadow: 0 18px 40px rgba(42, 33, 24, 0.16);
 }
 .hero-art-frame {
   padding: 0;
@@ -1344,7 +1345,7 @@ button.btn {
   border-radius: 16px;
   overflow: hidden;
   background: var(--cream, #fff8f0);
-  box-shadow: 0 8px 24px rgba(13, 79, 91, 0.1);
+  box-shadow: 0 8px 24px rgba(42, 33, 24, 0.1);
 }
 .photo-card img {
   width: 100%;
@@ -1354,7 +1355,7 @@ button.btn {
   display: block;
 }
 .site-footer {
-  background-image: linear-gradient(180deg, rgba(13,79,91,0.92), rgba(13,79,91,0.97)), url("assets/sand-dunes.png");
+  background-image: linear-gradient(180deg, rgba(42,33,24,0.94), rgba(42,33,24,0.98)), url("assets/sand-dunes.png");
   background-size: cover;
   background-position: center top;
 }
@@ -1365,3 +1366,199 @@ button.btn {
 
 /* Dual archive logo (lamp + 2019 wordmark) + media polish */
 .logo { gap: 0.55rem; align-items: center; }
+
+
+/* —— Redesign: photography-forward layouts —— */
+.hero-photo-forward .hero-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .hero-photo-forward .hero-grid {
+    grid-template-columns: 0.95fr 1.15fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+.hero-banner {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 5 / 4;
+  display: block;
+}
+@media (min-width: 900px) {
+  .hero-banner img { aspect-ratio: 4 / 3; min-height: 420px; }
+}
+.hero-banner-caption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 1.1rem 1.25rem;
+  background: linear-gradient(transparent, rgba(42,33,24,0.72));
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.photo-card figcaption {
+  padding: 0.85rem 1rem 1rem;
+  font-size: 0.92rem;
+  color: var(--ink-muted);
+  font-weight: 600;
+  line-height: 1.4;
+  background: var(--white);
+}
+.photo-card.has-caption img { aspect-ratio: 5 / 4; }
+.photo-trio {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .photo-trio { grid-template-columns: repeat(3, 1fr); gap: 1.15rem; }
+}
+
+.program-photo-card {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.program-photo-card .program-photo {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+  display: block;
+}
+.program-photo-card .program-photo-body {
+  padding: 1.25rem 1.35rem 1.45rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.program-photo-card .program-photo-body .card-link { margin-top: auto; }
+
+.about-asymmetric {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+@media (min-width: 860px) {
+  .about-asymmetric {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 3rem;
+  }
+  .about-asymmetric.reverse {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+  .about-asymmetric.reverse .about-asymmetric-media { order: 2; }
+  .about-asymmetric.reverse .about-asymmetric-copy { order: 1; }
+}
+.about-asymmetric-media {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 1.2fr 0.8fr;
+}
+.about-asymmetric-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+.about-asymmetric-media .tall {
+  grid-row: span 2;
+  min-height: 280px;
+  aspect-ratio: 3 / 4;
+}
+.about-asymmetric-media .wide {
+  aspect-ratio: 4 / 3;
+}
+
+.moment-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .moment-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.moment-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.moment-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+.moment-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.moment-card .moment-body {
+  padding: 1.15rem 1.25rem 1.35rem;
+}
+.moment-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+.moment-card p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+
+.contact-with-photo {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+@media (min-width: 900px) {
+  .contact-with-photo {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 2.5rem;
+  }
+}
+.contact-side-photo {
+  margin: 0;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  position: sticky;
+  top: calc(var(--header-h) + 1rem);
+}
+.contact-side-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  min-height: 320px;
+}
+.contact-side-photo figcaption {
+  padding: 1rem 1.15rem;
+  background: var(--cream-deep);
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Soften enrich-band for sage/cream */
+.enrich-band {
+  background:
+    radial-gradient(ellipse 50% 80% at 90% 20%, rgba(212,168,75,0.18), transparent 50%),
+    linear-gradient(135deg, #3D3228 0%, #2A2118 55%, #4A5A40 100%) !important;
+}
